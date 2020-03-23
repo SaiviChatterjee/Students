@@ -22,7 +22,7 @@ public class MainApp {
     	studentDao.insert(s3);
         List<Student> students = studentDao.getAll();
         for(Student s: students) {
-        	System.out.println(s.toString());
+        	System.out.println(s);
         }
     }
 }
